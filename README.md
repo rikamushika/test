@@ -1,4 +1,4 @@
-# test
+/index.html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
