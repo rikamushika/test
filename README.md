@@ -1,5 +1,4 @@
 /index.html
-あなた:
 <!DOCTYPE html>
 <html lang="ja">
 <head>
