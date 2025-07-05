@@ -234,8 +234,9 @@ function displayTanzaku(features) {
     div.style.top = `${y}px`;
     div.style.animationDelay = `${Math.random() * 3}s`;
 
-    div.innerHTML = `<img src="${imgURL}" alt="短冊">
-                     <div class="text">${wish}<br>★${penname}</div>`;
+   div.innerHTML = `<img src="${imgURL}" alt="短冊" style="background-color: transparent;">
+                 <div class="text">${wish}<br>★${penname}</div>`;
+
 
     div.onclick = () => {
       for (let i = 0; i < 5; i++) {
