@@ -265,7 +265,8 @@ function displayTanzaku(features) {
       } else {
         popupContent.innerHTML = `
           <div style="position: relative; width: 100%; max-width: 400px; margin: 0 auto;">
-            <img src="${imgURL}" alt="短冊" style="width: 100%;">
+           <img src="${imgURL}" alt="短冊" style="width: 100%; background-color: transparent;">
+
             <div style="
               position: absolute;
               top: 18%;
